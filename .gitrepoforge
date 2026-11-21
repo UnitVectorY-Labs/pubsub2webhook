@@ -1,0 +1,15 @@
+name: pubsub2webhook
+default_branch: main
+config:
+  osv: sarif
+  description: "Pulls GCP Pub/Sub messages and replays them as HTTP webhook requests."
+  license: MIT
+  language: go
+  release: docker-go
+  release_github: false
+  status: wip
+  justfile: false
+  codecov:
+    enabled: false
+  docs:
+    enabled: true
